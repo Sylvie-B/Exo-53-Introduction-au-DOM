@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    background-color: lightblue;
+    font-size: 2em;
+}
+
+@keyframes sizeChange {
+    50% {
+        font-size: 0.5rem;
+    }
+
+    100% {
+        font-size: 5rem;
+    }
+}
+
