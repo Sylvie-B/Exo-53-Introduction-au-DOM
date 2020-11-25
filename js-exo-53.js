@@ -10,15 +10,15 @@ word01.style.backgroundColor = "blue";
 
 let word02 = document.getElementById("color02");
 
-word02.style.backgroundColor = "blue";
+word02.style.backgroundColor = "red";
 
 let word03 = document.getElementById("color03");
 
-word03.style.backgroundColor = "blue";
+word03.style.backgroundColor = "green";
 
 let word04 = document.getElementById("color04");
 
-word04.style.backgroundColor = "blue";
+word04.style.backgroundColor = "green";
 
 //sélection des paragraphes et changement de taille
 let largeurP01 = document.querySelector(".para01");
@@ -31,7 +31,7 @@ largeurP03.style.width = "60%";
 
 let largeurP05 = document.querySelector(".para05");
 
-largeurP05.style.width = "60%";
+largeurP05.style.width = "25%";
 
 //animation
 let action = document.querySelector(".para02");
@@ -51,15 +51,15 @@ texte01.innerHTML = "vers l'infini...";
 
 let texte03 = document.getElementById("lien03");
 
-texte03.innerHTML = "... et au delà !"
+texte03.innerHTML = "... et au delà !";
 
 // ajout des liens
-texte01.href = "https://overclocking.com/wp-content/uploads/2019/10/buzz.jpg"
+texte01.href = "https://overclocking.com/wp-content/uploads/2019/10/buzz.jpg";
 
-texte03.href = "https://www.pausecafein.fr/images/cafein/2018/01/disney-toy-story/d2b-un-jour-une-histoire-vers-l-infini-et-l-au-dela_section_full.png"
+texte03.href = "https://www.pausecafein.fr/images/cafein/2018/01/disney-toy-story/d2b-un-jour-une-histoire-vers-l-infini-et-l-au-dela_section_full.png";
 
 // direction du texte
 word01.dir = "rtl";
 
 // changement du texte
-let newText = document.querySelector(".para05");
+largeurP05.innerHTML = "J'écris un nouveau paragraphe car je suis arrivée à la question 14";
